@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Homework 4</title>
+
+  <link rel="stylesheet" href="jquery-ui.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="http://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+  crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <style>
+    #dialog {
+      display: none;
+    }
+  </style>
+  <script src="hw4.js">
+  </script>
+</head>
+
+<body>
+  <main>
+    <h1>Homework 4</h1>
+    <span id=title></span>
+    <div class="slider">
+      <div><a href="https://www.tumblr.com"><img src="images/tumblr_op9lp3nERq1qh2loco1_1280.png" alt="tumblr_op9lp3nERq1qh2loco1_1280.png" title="1"></a></div>
+      <div><a href="https://www.deviantart.com"><img src="images/tumblr_olu3n3MEIq1sd6bg0o1_500.jpg" alt="tumblr_olu3n3MEIq1sd6bg0o1_500.jpg" title="2"></a></div>
+      <div><img src="images/tumblr_oo417oE5Ny1sfuy6po2_1280.jpg" alt="tumblr_oo417oE5Ny1sfuy6po2_1280.jpg" title="3"></div>
+      <div><img src="images/tumblr_oqj0neG9g21tnyujmo1_1280.jpg" alt="tumblr_oqj0neG9g21tnyujmo1_1280.jpg" title="4"></div>
+      <div><img src="images/tumblr_ou7rziyORH1tp5jdko1_1280.jpg" alt="tumblr_ou7rziyORH1tp5jdko1_1280.jpg" title="5"></div>
+    </div>
+  </main>
+  <form action="fotogallery.html">
+      <input type="submit" value="Fotorama" />
+  </form>
+  <div id="dialog" title="Photo Info">
+    <form>
+        <label for="info">Info</label>
+        <input type="text" name="info" id="infoForm" class="text ui-widget-content ui-corner-all" />
+    </form>
+  </div>
+</body>
+
+</html>
